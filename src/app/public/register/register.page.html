@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-back-button defaultHref="/login"></ion-back-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+
+<ion-grid>
+	<ion-row justify-content-center>
+		<ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+			<div text-center>
+				<h4>Register</h4>
+			</div>
+			<div padding>
+				<ion-item>
+					<ion-input type="text" placeholder="First Name"></ion-input>
+				</ion-item>
+
+				<ion-item>
+					<ion-input type="text" placeholder="Last Name"></ion-input>
+				</ion-item>
+
+        <ion-item>
+					<ion-input type="text" placeholder="Country Code"></ion-input>
+				</ion-item>
+
+        <ion-item>
+					<ion-input type="text" placeholder="Phone Number"></ion-input>
+				</ion-item>
+
+        <ion-item>
+					<ion-input type="text" placeholder="Email"></ion-input>
+				</ion-item>
+
+        <ion-item>
+					<ion-input type="password" placeholder="Password"></ion-input>
+				</ion-item>
+			</div>
+
+			<div padding>
+				<ion-button size="large" (click)="register()" expand="block">SIGN UP</ion-button>
+			</div>
+		</ion-col>
+	</ion-row>
+</ion-grid>
+
+</ion-content>
